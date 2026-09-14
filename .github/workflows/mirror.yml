@@ -1,0 +1,38 @@
+name: Mirror latest releases
+
+on:
+  schedule:
+    - cron: '37 */6 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [mirror-releases]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Mirror latest release assets
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/mirror.py
+
+      - name: Publish (single-commit history, force push)
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          cd public
+          git init -q
+          git config user.name "NUSV Mirror Bot"
+          git config user.email "nusv-mirror@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Mirror latest releases ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push -f -q "https://x-access-token:${TOKEN}@github.com/NUSV/downloads.git" HEAD:main
