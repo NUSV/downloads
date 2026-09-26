@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-26T16:44:15Z",
+  "base_url": "https://nusv.github.io/downloads",
+  "repos": {
+    "Gomoku-NUSV": {
+      "tag": "v1.7.0-M",
+      "name": "Gomoku-NUSV 1.7.0-M (Android mobile edition, rebuilt phone UI)",
+      "assets": [
+        {
+          "name": "Gomoku-NUSV-1.7.0-M-automotive.apk",
+          "size": 11998286,
+          "mirror": "https://nusv.github.io/downloads/gomoku-nusv/Gomoku-NUSV-1.7.0-M-automotive.apk",
+          "github": "https://github.com/NUSV/Gomoku-NUSV/releases/download/v1.7.0-M/Gomoku-NUSV-1.7.0-M-automotive.apk"
+        },
+        {
+          "name": "Gomoku-NUSV-1.7.0-M-mobile.apk",
+          "size": 11998230,
+          "mirror": "https://nusv.github.io/downloads/gomoku-nusv/Gomoku-NUSV-1.7.0-M-mobile.apk",
+          "github": "https://github.com/NUSV/Gomoku-NUSV/releases/download/v1.7.0-M/Gomoku-NUSV-1.7.0-M-mobile.apk"
+        },
+        {
+          "name": "Gomoku-NUSV-1.7.0-M.apk",
+          "size": 11998198,
+          "mirror": "https://nusv.github.io/downloads/gomoku-nusv/Gomoku-NUSV-1.7.0-M.apk",
+          "github": "https://github.com/NUSV/Gomoku-NUSV/releases/download/v1.7.0-M/Gomoku-NUSV-1.7.0-M.apk"
+        },
+        {
+          "name": "Gomoku-NUSV-1.7.0-M.dmg",
+          "size": 69601435,
+          "mirror": "https://nusv.github.io/downloads/gomoku-nusv/Gomoku-NUSV-1.7.0-M.dmg",
+          "github": "https://github.com/NUSV/Gomoku-NUSV/releases/download/v1.7.0-M/Gomoku-NUSV-1.7.0-M.dmg"
+        }
+      ]
+    },
+    "NUSV-lite": {
+      "tag": "v1.10.1",
+      "name": "NUSV LITE v1.10.1",
+      "assets": [
+        {
+          "name": "NUSV-LITE-v1.10.1-alpha.apk",
+          "size": 21985531,
+          "mirror": "https://nusv.github.io/downloads/nusv-lite/NUSV-LITE-v1.10.1-alpha.apk",
+          "github": "https://github.com/NUSV/NUSV-lite/releases/download/v1.10.1/NUSV-LITE-v1.10.1-alpha.apk"
+        }
+      ]
+    },
+    "Syna-NUSV": {
+      "tag": "v1.0.1",
+      "name": "v1.0.1 — ◇Mirtazapine Shield",
+      "assets": [
+        {
+          "name": "composeApp-debug.apk",
+          "size": 27849093,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/composeApp-debug.apk",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/composeApp-debug.apk"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 267,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/SHA256SUMS.txt",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/SHA256SUMS.txt"
+        },
+        {
+          "name": "Syna-1.0.1.dmg",
+          "size": 68737200,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/Syna-1.0.1.dmg",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/Syna-1.0.1.dmg"
+        },
+        {
+          "name": "syna-server.jar",
+          "size": 38368390,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/syna-server.jar",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/syna-server.jar"
+        },
+        {
+          "name": "Syna-v1.0.1-macos.dmg",
+          "size": 67462580,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/Syna-v1.0.1-macos.dmg",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/Syna-v1.0.1-macos.dmg"
+        },
+        {
+          "name": "Syna-v1.0.1-release.apk",
+          "size": 22419184,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/Syna-v1.0.1-release.apk",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/Syna-v1.0.1-release.apk"
+        },
+        {
+          "name": "Syna-v1.0.1-server.jar",
+          "size": 43611529,
+          "mirror": "https://nusv.github.io/downloads/syna-nusv/Syna-v1.0.1-server.jar",
+          "github": "https://github.com/NUSV/Syna-NUSV/releases/download/v1.0.1/Syna-v1.0.1-server.jar"
+        }
+      ]
+    }
+  }
+}
